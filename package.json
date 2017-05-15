@@ -1,0 +1,19 @@
+{
+  "name": "vitamin-blog",
+  "version": "0.0.0",
+  "description": "POC to create a blog with Vitamin & ButterCMS",
+  "author": "Lucas Personnaz <lucas.personnaz@gmail.com>",
+  "keywords": [],
+  "dependencies": {
+    "buttercms": "^1.0.15",
+    "react": "^15.4.2",
+    "vitaminjs": "^1.0.0",
+    "wpapi": "^1.0.3"
+  },
+  "scripts": {
+    "start": "vitamin start",
+    "build": "vitamin build",
+    "serve": "vitamin serve"
+  },
+  "private": true
+}

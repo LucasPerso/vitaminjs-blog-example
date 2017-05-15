@@ -1,0 +1,16 @@
+version: "2"
+services:
+  node-yarn:
+    image: evaneos/ev-node:6.9.4-npm4.0
+    working_dir: "/project"
+    expose:
+      - 3000
+    ports:
+      - "3000:3000"
+    command: bash -c "npm run start"
+    tty: true
+    environment:
+      NODE_ENV: dev
+      HOST: 0.0.0.0
+    volumes:
+      - "./:/project"

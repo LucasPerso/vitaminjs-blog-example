@@ -1,7 +1,7 @@
 {
   "name": "vitamin-blog",
   "version": "0.0.0",
-  "description": "POC to create a blog with Vitamin & ButterCMS",
+  "description": "POC to create a blog with Vitamin & Wordpress BackEnd",
   "author": "Lucas Personnaz <lucas.personnaz@gmail.com>",
   "keywords": [],
   "dependencies": {
